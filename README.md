@@ -14,25 +14,21 @@ An awesome note-taking applicatione!
 -Spring Authentication implemented with Okta's API
 -React front-end <br/>
 
-# Quick Start Demo
-
 ![Demo Preview](https://raw.githubusercontent.com/plaseo/lenotes/main/app/src/lenotesScfreen.png)
 
-# Table of Contents
-- [Table of Contents](#table-of-contents)
+# Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribute](#contribute)
 - [License](#license)
 
-
 # Installation
-
 > Create a developer account at:  
 https://developer.okta.com  
 Install the Octa CLI:
 https://cli.okta.com/   
 This requires MySQL installed but you can change the driver to H2
+
 1. Clone repo:
 ```shell
 git clone https://github.com/plaseo/lenotes
@@ -53,16 +49,17 @@ spring.datasource.url= jdbc:mysql://localhost:3306/"mySQLDatabase"
 spring.datasource.username= root
 spring.datasource.password= "mySQLPassword"
 ```
-
-
+# Usage
+```shell
+./mvnw spring-boot:run -Pprod
+```
+> If browser doesn't open, navigate to:
+http://localhost:8080
+You can login with your Okta dev account or create a new one
 
 # Contribute
-
 Pull requests welcome! </br>
 (I'd be giddy if I got a real life pull reqest)
 
-
 # License
-
 [GPL-3.0 license](./LICENSE)
-
