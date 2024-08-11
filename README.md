@@ -26,7 +26,7 @@ An awesome note-taking application!
 https://developer.okta.com  
 Install the Octa CLI:
 https://cli.okta.com/   
-This requires MySQL installed but you can change the driver to H2
+This requires MySQL installed but you can change the driver to H2 or other
 
 1. Clone repo:
 ```shell
@@ -59,7 +59,7 @@ You can login with your Okta dev account or create a new one
 
 # Contribute
 Pull requests welcome! </br>
-(I'd be giddy if I got a real life pull reqest)
+(I'd be giddy if I got a real life pull request)
 
 # License
 [GPL-3.0 license](./LICENSE)
