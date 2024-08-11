@@ -1,6 +1,5 @@
 
 # LeNotes
-
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/plaseo/lenotes?include_prereleases)](https://img.shields.io/github/v/release/plaseo/lenotes?include_prereleases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/plaseo/lenotes)](https://img.shields.io/github/last-commit/plaseo/lenotes)
 [![GitHub issues](https://img.shields.io/github/issues-raw/plaseo/lenotes)](https://img.shields.io/github/issues-raw/plaseo/lenotes)
@@ -38,8 +37,9 @@ git clone https://github.com/plaseo/lenotes
 okta login
 okta apps create
 ```
+>Choose Okta Spring Boot Starter. Set Redirect URI to: http://localhost:8080/login/oauth2/code/okta and http://localhost:3000,http://localhost:8080 for the Logout Redirect URI.
 
-3. Create secrets.properties in root of project   
+3. Create secrets.properties in root of project with below content   
 Make sure to update with your own values:
 ```shell
 okta.oauth2.issuer=https\://"my.okta.url"/oauth2/default
