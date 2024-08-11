@@ -12,7 +12,7 @@ An awesome note-taking application!
 
 -Spring Boot back-end <br/>
 -Spring Authentication implemented with Okta's API </br>
--React front-end <br/>
+-React front-end
 
 ![Demo Preview](https://raw.githubusercontent.com/plaseo/lenotes/main/app/src/lenotesScfreen.png)
 
