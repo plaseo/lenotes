@@ -1,0 +1,15 @@
+.notez {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.centernote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
