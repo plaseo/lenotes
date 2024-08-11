@@ -59,7 +59,7 @@ spring.datasource.password= "mySQLPassword"
 # Contribute
 
 Pull requests welcome! </br>
-(I'd be giddy if I got a real life pull reqest, hehe)
+(I'd be giddy if I got a real life pull reqest)
 
 
 # License
