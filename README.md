@@ -7,11 +7,11 @@
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/plaseo/lenotes)](https://img.shields.io/github/issues-pr/plaseo/lenotes)
 [![GitHub](https://img.shields.io/github/license/plaseo/lenotes)](https://img.shields.io/github/license/plaseo/lenotes)
 
-Capstone project for a fullstack developer program
-An awesome note-taking applicatione!
+Capstone project for a fullstack developer program </br>
+An awesome note-taking application!
 
 -Spring Boot back-end <br/>
--Spring Authentication implemented with Okta's API
+-Spring Authentication implemented with Okta's API </br>
 -React front-end <br/>
 
 ![Demo Preview](https://raw.githubusercontent.com/plaseo/lenotes/main/app/src/lenotesScfreen.png)
