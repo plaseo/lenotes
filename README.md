@@ -64,7 +64,5 @@ Pull requests welcome! </br>
 
 # License
 
-You can also mention what license the project uses. I usually add it like this:
-
 [GPL-3.0 license](./LICENSE)
 
