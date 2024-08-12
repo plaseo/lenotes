@@ -95,8 +95,9 @@ const NoteEdit = () => {
                 value={note.body}
                 onChange={handleChange}
                 placeholder="Type your note here"
-                className="textarea textarea-ghost !mt-2 !placeholder-slate-300"
+                className="textarea textarea-ghost !placeholder-slate-300"
                 cols={39}
+                rows={1}
                 style={{
                   height: textareaHeight,
                   overflow: "hidden",

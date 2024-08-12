@@ -48,14 +48,13 @@ const AppNavbar = () => {
   const button = authenticated ?
     <div>
       <button color="primary" onClick={logout}>Logout</button>
-    </div> :
+    </div> : 
     <button color="primary" onClick={login}>Login</button>;
   
   const button2 = authenticated ?
-      <div>
-        <button color="link"><Link to="/notes">View Notes</Link></button>
-      </div>:
-      <div></div>;
+      <li><button color="link"><Link to="/notes">View Notes</Link></button></li>
+      :
+      <div hidden></div>
 
   const message = user ?
   <h2>Welcome, {user.name}!</h2> :
@@ -83,9 +82,9 @@ const AppNavbar = () => {
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><button>{message}</button></li>
+              <li>{message}</li>
               <li><a href='/'>Home</a></li>
-              <li><button>{button2}</button></li>
+              {button2}
               <li><button>{button}</button></li>
             </ul>
           </div>
